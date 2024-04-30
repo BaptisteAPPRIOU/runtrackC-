@@ -25,7 +25,7 @@ int main() {
                 if (i == 1) {
                     std::cout << "   ";
                 } else if (i == 2) {
-                    std::cout << "-- ";
+                    std::cout << "---";
                 } else {
                     std::cout << i-2 << " ";
                     if (i-2 < 10) {
@@ -33,7 +33,7 @@ int main() {
                     }
                 }
             } else if (i == 2) {
-                std::cout << "-- ";
+                std::cout << "---";
             } else if (j == 2) {
                 std::cout << "| ";
             } else {
