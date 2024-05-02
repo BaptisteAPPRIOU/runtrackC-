@@ -29,7 +29,7 @@ int main() {
     int Tab2[] = {2, 4, 6, 8, 10, 12, 14, 16};
     int Tab_final[17];
     mergeArrays(Tab1, 9, Tab2, 8, Tab_final);
-    std::cout << "Merged Array: ";
+    std::cout << "Tableau final: ";
     for (int i = 0; i < 17; i++) {
         std::cout << Tab_final[i] << " ";
     }
