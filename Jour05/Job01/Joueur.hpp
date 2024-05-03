@@ -1,6 +1,7 @@
 class Joueur {
     public:
-        Joueur(int x, int y);
+        Joueur();
+        void init(int x, int y);
         void afficher();
         void deplacer(int x, int y);
         ~Joueur();
